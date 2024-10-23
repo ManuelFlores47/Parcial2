@@ -1,0 +1,124 @@
+/* Header */
+.header{
+    color: white;
+    padding: 15px 15px;
+    margin: 0 auto;
+    background-color: #1e3d59; /* Azul oscuro */
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* Barra de Navegación */
+.navbar {
+    background-color: #ffffff; /* Fondo blanco */
+    overflow: hidden;
+    border: 3px solid #6a6e72; /* Azul acero */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #000000; 
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+.navbar ul li a:hover {
+    background-color: #356179; /* Azul acero oscuro al pasar mouse */
+}
+
+/* Cuerpo de la Página */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Beige claro */
+}
+
+a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+/* Contenedor */
+.contenedor {
+    padding: 0;
+    margin: 130px auto 0;
+    width: 100%;
+    max-width: 960px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Color de fondo */
+}
+
+/* Imágenes Centradas */
+
+h2{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente si es necesario */
+}
+.centrar {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente si es necesario */
+}
+
+.centrar img {
+    width: 500px; /* Ajusta el tamaño de la imagen aquí */
+    height: auto;
+    border: 3px solid black;
+}
+
+/* Cuadro de Contenido */
+.contenido {
+    font-size: 1.2em;
+    margin: 0 auto; 
+    max-width: 1200px;
+    
+    padding: 10px 15px; /* Espaciado interno */
+    
+    
+    margin-bottom: 20px; /* Espaciado inferior entre los títulos */
+    
+}
+/* Footer */
+.footer{
+    background-color: #1e3d59; /* Azul oscuro */
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    margin: 0 auto;
+}
+
+.footer a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+.profundidad{
+
+    background-color: #cac5c5; 
+    border: 2px solid #00255c;
+    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+    margin: 10px;
+}
